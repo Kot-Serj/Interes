@@ -2,7 +2,6 @@ import telebot
 from telebot import apihelper
 import config
 
-
 bot = telebot.TeleBot(config.token)
 apihelper.proxy = {'http': config.proxy}
 
